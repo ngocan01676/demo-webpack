@@ -1,0 +1,14 @@
+# Ignore node_modules directories
+**/node_modules
+
+# Ignore log files
+*.log
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore build artifacts and cache files for PHP and Composer
+/vendor/
+/composer.phar
+/php_error.log
+/.phpunit.result.cache
