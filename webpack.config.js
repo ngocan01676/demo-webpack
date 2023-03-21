@@ -12,3 +12,19 @@ module.exports = {
   },
   mode: 'production'
 };
+
+// const path = require('path');
+
+// module.exports = {
+//   target: 'node',
+//   mode: 'production',
+//   entry: './your-entry-file.js',
+//   output: {
+//     filename: 'bundle.js',
+//     path: path.resolve(__dirname, 'dist')
+//   },
+//   externals: [
+//     'aws-sdk', // Exclude AWS SDK from the bundle
+//     /^chrome-aws-lambda/ // Exclude all modules that start with "chrome-aws-lambda"
+//   ]
+// };
