@@ -10,9 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1339.0"
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "aws-sdk": "^2.1339.0",
+    "bufferutil": "^4.0.7",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^19.7.5",
+    "utf-8-validate": "^6.0.3"
   },
   "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "serverless-webpack": "^5.11.0",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1"
   }
